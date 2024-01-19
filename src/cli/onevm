@@ -1085,7 +1085,7 @@ CommandParser::CmdParser.new(ARGV) do
 
     # TODO: Write a more complete description:
     snapshot_delete_desc = <<-EOT.unindent
-        Delets a snapshot of a VM
+        Deletes a snapshot of a VM
     EOT
 
     command :"snapshot-delete", snapshot_delete_desc, :vmid, :snapshot_id,
